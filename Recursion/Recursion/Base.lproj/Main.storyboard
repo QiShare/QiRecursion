@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JmD-J5-Pe7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Recursion Rule Content Controller-->
+        <scene sceneID="V9U-cQ-qV6">
+            <objects>
+                <viewController id="2CI-D7-AhK" customClass="QCRecursionRuleContentController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S0x-1D-ufl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PdD-8R-k3v"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rxb-Ho-CRr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-382" y="-86"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="AYW-f2-6HE">
+            <objects>
+                <navigationController id="50j-qo-nw1" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Yph-xk-iuS">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="kOj-zV-1qr" kind="relationship" relationship="rootViewController" id="vOJ-Yo-DOZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="90Y-J9-9K3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-382" y="-751"/>
+        </scene>
+        <!--递归实现原则-->
+        <scene sceneID="HdV-xz-Lxn">
+            <objects>
+                <viewController id="kOj-zV-1qr" customClass="QCRecursionRulesController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NYA-ax-dGT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" estimatedRowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="hgs-2E-rQX">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="kOj-zV-1qr" id="iZr-jc-RR0"/>
+                                    <outlet property="delegate" destination="kOj-zV-1qr" id="TiY-sC-eRv"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2bL-A1-IMt" firstAttribute="trailing" secondItem="hgs-2E-rQX" secondAttribute="trailing" id="2N8-ez-AbB"/>
+                            <constraint firstItem="hgs-2E-rQX" firstAttribute="top" secondItem="2bL-A1-IMt" secondAttribute="top" id="2qz-hI-QU0"/>
+                            <constraint firstItem="2bL-A1-IMt" firstAttribute="bottom" secondItem="hgs-2E-rQX" secondAttribute="bottom" id="LWF-bh-4QG"/>
+                            <constraint firstItem="hgs-2E-rQX" firstAttribute="leading" secondItem="2bL-A1-IMt" secondAttribute="leading" id="l02-w8-GA8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2bL-A1-IMt"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="递归实现原则" id="3oF-Du-312"/>
+                    <connections>
+                        <outlet property="tableView" destination="hgs-2E-rQX" id="RxM-c9-b50"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bLs-8o-bRS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="418" y="-745"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="uVc-ha-PNJ">
+            <objects>
+                <splitViewController id="JmD-J5-Pe7" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="50j-qo-nw1" kind="relationship" relationship="masterViewController" id="PgN-zz-EGW"/>
+                        <segue destination="2CI-D7-AhK" kind="relationship" relationship="detailViewController" id="VOk-mi-98A"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wdE-LE-bKI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1334" y="-419"/>
+        </scene>
+    </scenes>
+</document>

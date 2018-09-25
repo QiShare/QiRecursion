@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37F9F399214E3C4900C401AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F9F398214E3C4900C401AC /* AppDelegate.m */; };
+		37F9F39F214E3C4900C401AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F9F39D214E3C4900C401AC /* Main.storyboard */; };
+		37F9F3A1214E3C4900C401AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F9F3A0214E3C4900C401AC /* Assets.xcassets */; };
+		37F9F3A4214E3C4900C401AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F9F3A2214E3C4900C401AC /* LaunchScreen.storyboard */; };
+		37F9F3A7214E3C4900C401AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F9F3A6214E3C4900C401AC /* main.m */; };
+		CD8B81692150CEB10074D939 /* QCFunctionBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B81672150CEB10074D939 /* QCFunctionBaseController.m */; };
+		CD8B816A2150CEB10074D939 /* QCFunctionBaseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8B81682150CEB10074D939 /* QCFunctionBaseController.xib */; };
+		CD8B81722150D57B0074D939 /* QCFibFunctionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B81712150D57B0074D939 /* QCFibFunctionController.m */; };
+		CD8B81752150E7CC0074D939 /* QCRecursionRuleContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B81742150E7CC0074D939 /* QCRecursionRuleContentController.m */; };
+		CD95D8352150EE6D0058AD69 /* QCNonBaseCaseFibFunctionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD95D8342150EE6D0058AD69 /* QCNonBaseCaseFibFunctionController.m */; };
+		CD95D8382150F0A10058AD69 /* QCMathFunctionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD95D8372150F0A10058AD69 /* QCMathFunctionController.m */; };
+		CD95D83B2150F4400058AD69 /* QCNonRecursiveFibFunctionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD95D83A2150F4400058AD69 /* QCNonRecursiveFibFunctionController.m */; };
+		CD95D847215103650058AD69 /* QCCalculateValueController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD95D846215103650058AD69 /* QCCalculateValueController.m */; };
+		CDE47F342150931700DF09CC /* QCRecursionRulesController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE47F332150931700DF09CC /* QCRecursionRulesController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37F9F394214E3C4900C401AC /* Recursion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recursion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F9F397214E3C4900C401AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37F9F398214E3C4900C401AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37F9F39E214E3C4900C401AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37F9F3A0214E3C4900C401AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37F9F3A3214E3C4900C401AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37F9F3A5214E3C4900C401AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F9F3A6214E3C4900C401AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD8B81662150CEB10074D939 /* QCFunctionBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCFunctionBaseController.h; sourceTree = "<group>"; };
+		CD8B81672150CEB10074D939 /* QCFunctionBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCFunctionBaseController.m; sourceTree = "<group>"; };
+		CD8B81682150CEB10074D939 /* QCFunctionBaseController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QCFunctionBaseController.xib; sourceTree = "<group>"; };
+		CD8B81702150D57B0074D939 /* QCFibFunctionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCFibFunctionController.h; sourceTree = "<group>"; };
+		CD8B81712150D57B0074D939 /* QCFibFunctionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCFibFunctionController.m; sourceTree = "<group>"; };
+		CD8B81732150E7CC0074D939 /* QCRecursionRuleContentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCRecursionRuleContentController.h; sourceTree = "<group>"; };
+		CD8B81742150E7CC0074D939 /* QCRecursionRuleContentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCRecursionRuleContentController.m; sourceTree = "<group>"; };
+		CD95D8332150EE6D0058AD69 /* QCNonBaseCaseFibFunctionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCNonBaseCaseFibFunctionController.h; sourceTree = "<group>"; };
+		CD95D8342150EE6D0058AD69 /* QCNonBaseCaseFibFunctionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCNonBaseCaseFibFunctionController.m; sourceTree = "<group>"; };
+		CD95D8362150F0A10058AD69 /* QCMathFunctionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCMathFunctionController.h; sourceTree = "<group>"; };
+		CD95D8372150F0A10058AD69 /* QCMathFunctionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCMathFunctionController.m; sourceTree = "<group>"; };
+		CD95D8392150F4400058AD69 /* QCNonRecursiveFibFunctionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCNonRecursiveFibFunctionController.h; sourceTree = "<group>"; };
+		CD95D83A2150F4400058AD69 /* QCNonRecursiveFibFunctionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCNonRecursiveFibFunctionController.m; sourceTree = "<group>"; };
+		CD95D845215103650058AD69 /* QCCalculateValueController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCCalculateValueController.h; sourceTree = "<group>"; };
+		CD95D846215103650058AD69 /* QCCalculateValueController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCCalculateValueController.m; sourceTree = "<group>"; };
+		CDE47F322150931700DF09CC /* QCRecursionRulesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCRecursionRulesController.h; sourceTree = "<group>"; };
+		CDE47F332150931700DF09CC /* QCRecursionRulesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCRecursionRulesController.m; sourceTree = "<group>"; };
+		F11EBAF321525FD50072A5D9 /* Recursion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Recursion.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37F9F391214E3C4900C401AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37F9F38B214E3C4900C401AC = {
+			isa = PBXGroup;
+			children = (
+				37F9F396214E3C4900C401AC /* Recursion */,
+				37F9F395214E3C4900C401AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37F9F395214E3C4900C401AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37F9F394214E3C4900C401AC /* Recursion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37F9F396214E3C4900C401AC /* Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				F11EBAF321525FD50072A5D9 /* Recursion.entitlements */,
+				37F9F397214E3C4900C401AC /* AppDelegate.h */,
+				37F9F398214E3C4900C401AC /* AppDelegate.m */,
+				CD95D844215103190058AD69 /* RootController */,
+				CD95D848215105690058AD69 /* RuleController */,
+				37F9F39D214E3C4900C401AC /* Main.storyboard */,
+				37F9F3A0214E3C4900C401AC /* Assets.xcassets */,
+				37F9F3A2214E3C4900C401AC /* LaunchScreen.storyboard */,
+				37F9F3A5214E3C4900C401AC /* Info.plist */,
+				37F9F3A6214E3C4900C401AC /* main.m */,
+			);
+			path = Recursion;
+			sourceTree = "<group>";
+		};
+		CD95D844215103190058AD69 /* RootController */ = {
+			isa = PBXGroup;
+			children = (
+				CDE47F322150931700DF09CC /* QCRecursionRulesController.h */,
+				CDE47F332150931700DF09CC /* QCRecursionRulesController.m */,
+				CD8B81732150E7CC0074D939 /* QCRecursionRuleContentController.h */,
+				CD8B81742150E7CC0074D939 /* QCRecursionRuleContentController.m */,
+			);
+			path = RootController;
+			sourceTree = "<group>";
+		};
+		CD95D848215105690058AD69 /* RuleController */ = {
+			isa = PBXGroup;
+			children = (
+				CD95D849215105850058AD69 /* BaseClass */,
+				CD8B81702150D57B0074D939 /* QCFibFunctionController.h */,
+				CD8B81712150D57B0074D939 /* QCFibFunctionController.m */,
+				CD95D8362150F0A10058AD69 /* QCMathFunctionController.h */,
+				CD95D8372150F0A10058AD69 /* QCMathFunctionController.m */,
+				CD95D8392150F4400058AD69 /* QCNonRecursiveFibFunctionController.h */,
+				CD95D83A2150F4400058AD69 /* QCNonRecursiveFibFunctionController.m */,
+				CD95D8332150EE6D0058AD69 /* QCNonBaseCaseFibFunctionController.h */,
+				CD95D8342150EE6D0058AD69 /* QCNonBaseCaseFibFunctionController.m */,
+			);
+			path = RuleController;
+			sourceTree = "<group>";
+		};
+		CD95D849215105850058AD69 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B81662150CEB10074D939 /* QCFunctionBaseController.h */,
+				CD8B81672150CEB10074D939 /* QCFunctionBaseController.m */,
+				CD8B81682150CEB10074D939 /* QCFunctionBaseController.xib */,
+				CD95D845215103650058AD69 /* QCCalculateValueController.h */,
+				CD95D846215103650058AD69 /* QCCalculateValueController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37F9F393214E3C4900C401AC /* Recursion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F9F3AA214E3C4900C401AC /* Build configuration list for PBXNativeTarget "Recursion" */;
+			buildPhases = (
+				37F9F390214E3C4900C401AC /* Sources */,
+				37F9F391214E3C4900C401AC /* Frameworks */,
+				37F9F392214E3C4900C401AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recursion;
+			productName = Recursion;
+			productReference = 37F9F394214E3C4900C401AC /* Recursion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37F9F38C214E3C4900C401AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "陈彬";
+				TargetAttributes = {
+					37F9F393214E3C4900C401AC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 37F9F38F214E3C4900C401AC /* Build configuration list for PBXProject "Recursion" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37F9F38B214E3C4900C401AC;
+			productRefGroup = 37F9F395214E3C4900C401AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37F9F393214E3C4900C401AC /* Recursion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37F9F392214E3C4900C401AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F9F3A4214E3C4900C401AC /* LaunchScreen.storyboard in Resources */,
+				CD8B816A2150CEB10074D939 /* QCFunctionBaseController.xib in Resources */,
+				37F9F3A1214E3C4900C401AC /* Assets.xcassets in Resources */,
+				37F9F39F214E3C4900C401AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37F9F390214E3C4900C401AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8B81752150E7CC0074D939 /* QCRecursionRuleContentController.m in Sources */,
+				CD95D8352150EE6D0058AD69 /* QCNonBaseCaseFibFunctionController.m in Sources */,
+				37F9F3A7214E3C4900C401AC /* main.m in Sources */,
+				CDE47F342150931700DF09CC /* QCRecursionRulesController.m in Sources */,
+				37F9F399214E3C4900C401AC /* AppDelegate.m in Sources */,
+				CD95D8382150F0A10058AD69 /* QCMathFunctionController.m in Sources */,
+				CD95D847215103650058AD69 /* QCCalculateValueController.m in Sources */,
+				CD95D83B2150F4400058AD69 /* QCNonRecursiveFibFunctionController.m in Sources */,
+				CD8B81722150D57B0074D939 /* QCFibFunctionController.m in Sources */,
+				CD8B81692150CEB10074D939 /* QCFunctionBaseController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37F9F39D214E3C4900C401AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37F9F39E214E3C4900C401AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37F9F3A2214E3C4900C401AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37F9F3A3214E3C4900C401AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37F9F3A8214E3C4900C401AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37F9F3A9214E3C4900C401AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37F9F3AB214E3C4900C401AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Recursion/Recursion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZX24TX624;
+				INFOPLIST_FILE = Recursion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.hxs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		37F9F3AC214E3C4900C401AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Recursion/Recursion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZX24TX624;
+				INFOPLIST_FILE = Recursion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.hxs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37F9F38F214E3C4900C401AC /* Build configuration list for PBXProject "Recursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F9F3A8214E3C4900C401AC /* Debug */,
+				37F9F3A9214E3C4900C401AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F9F3AA214E3C4900C401AC /* Build configuration list for PBXNativeTarget "Recursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F9F3AB214E3C4900C401AC /* Debug */,
+				37F9F3AC214E3C4900C401AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37F9F38C214E3C4900C401AC /* Project object */;
+}
